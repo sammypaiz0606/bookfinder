@@ -1,18 +1,22 @@
 * {
-    background:url('../images/wallpaper.jpg');
-    background-size:auto;
+    background:url('../images/wallpaper.jpg')repeat fixed;
     position: relative;
     z-index: -1;
+    
 }
 #wrapper {
     text-align: center;
-    margin-top:50px;
+    margin-top:0px;
+    position: relative;
+    z-index: 1;
     
 }
 input {
     background:#fff;
     border-radius:5px;
+    position: relative;
+    z-index: 2;
 }
-.button {
-    background:blue;
+#searchBtn {
+    cursor:pointer;
 }
