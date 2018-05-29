@@ -1,12 +1,11 @@
-* {
-    background:url('../images/wallpaper.jpg')repeat fixed;
-    position: relative;
-    z-index: -1;
+body{
+    background:url('../images/wallpaper.jpg')fixed repeat;
+ 
     
 }
 #wrapper {
     text-align: center;
-    margin-top:0px;
+    margin-top:50px;
     position: relative;
     z-index: 1;
     
@@ -18,5 +17,11 @@ input {
     z-index: 2;
 }
 #searchBtn {
+    background:blue;
     cursor:pointer;
+    position: relative;
+    z-index: 2;
+}
+#results {
+    margin:25px;
 }

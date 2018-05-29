@@ -2,7 +2,7 @@ function bookSearch() {
     //store user input
     var search = document.getElementById('search').value;
     //clear any previous data
-    document.getElementById('results').inerHTML ='';
+    document.getElementById('results').innerHTML ='';
     
     //make a data request
     $.ajax({
