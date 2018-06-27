@@ -1,27 +1,50 @@
+@fonts-face {
+    font-family:amarillo;
+    src:url ('../fonts/Amarillo.otf');
+}
 body{
-    background:url('../images/wallpaper.jpg')fixed repeat;
- 
+    padding:0;
+    margin:0;
+    background:#d2d2d2;
     
+}
+
+#backImg {
+    width:100%;
+    height:100%;
+    background:url('../images/books.jpg')repeat center;
+    position: fixed;
+    opacity:0.4;
 }
 #wrapper {
     text-align: center;
-    margin-top:50px;
+   
+}
+.middleWrap {
     position: relative;
-    z-index: 1;
-    
+    top:50px;
+}
+h1 {
+    font-family:amarillo;
+    font-size:50px;
+    font-weight:bold;
+    font-style:italic;
 }
 input {
     background:#fff;
     border-radius:5px;
-    position: relative;
     z-index: 2;
 }
+
 #searchBtn {
+    font-size:15px;
     background:blue;
     cursor:pointer;
-    position: relative;
-    z-index: 2;
+    transition:font-size 1s linear;
+}
+#searchBtn:hover {
+    font-size:17px;
 }
 #results {
-    margin:25px;
+    margin:55px;
 }
